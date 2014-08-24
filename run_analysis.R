@@ -34,7 +34,7 @@ mergeTrainData <- function()
         cbind(xTrain,subjectTrain,yTrain)
 }
 
-# Fucntion to merge test and train data
+# Function to merge test and train data
 mergeTestTrainData <- function()
 {
         rbind(mergeTestData(), mergeTrainData())
